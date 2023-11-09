@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="profile.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/airbnbcereal@1.1.0/stylesheet.min.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-transparent d-flex my-5">
+        <div class="container-fluid">
+          <div class="navbir" style="margin-left: 10em">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavAltMarkup"
+              aria-controls="navbarNavAltMarkup"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            ></button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a
+                  class="nav nav-link"
+                  style="margin-right: 5em"
+                  aria-current="page"
+                  href="homepage.html"
+                  >Home</a
+                >
+                <a
+                  class="nav nav-link"
+                  style="margin-right: 5em"
+                  href="addRecipe.html"
+                  >Add recipes</a
+                >
+                <a
+                  class="nav nav-link"
+                  href="profile.html"
+                  style="text-decoration-line: underline"
+                  >Profile</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg d-flex flex-column align-items-center">
+            <div class="fotoprofile position-relative">
+              <div class="dropdown-center" id="dropdown">
+                <button
+                  class="btn"
+                  type="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                  >
+                    <path
+                      d="M16.5 3.49998C16.8978 3.10216 17.4374 2.87866 18 2.87866C18.2786 2.87866 18.5544 2.93353 18.8118 3.04014C19.0692 3.14674 19.303 3.303 19.5 3.49998C19.697 3.69697 19.8532 3.93082 19.9598 4.18819C20.0665 4.44556 20.1213 4.72141 20.1213 4.99998C20.1213 5.27856 20.0665 5.55441 19.9598 5.81178C19.8532 6.06915 19.697 6.303 19.5 6.49998L7 19L3 20L4 16L16.5 3.49998Z"
+                      stroke="#EFC81A"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </button>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="#">Change Photo Profile</a>
+                  </li>
+                  <li><a class="dropdown-item" href="#">Change Password</a></li>
+                </ul>
+              </div>
+            </div>
+            <h1 class="nameprofile">Garneta Sharina</h1>
+          </div>
+        </div>
+      </div>
+
+      <div class="drop container-fluid">
+        <div class="row">
+          <div class="col-lg">
+            <p class="d-inline-flex gap-1" id="dro">
+              <a
+                class="btn"
+                data-bs-toggle="collapse"
+                href="#MyRecipe"
+                role="button"
+                aria-expanded="false"
+                aria-controls="MyRecipe"
+              >
+                My Recipe
+              </a>
+              <a
+                class="btn"
+                data-bs-toggle="collapse"
+                href="#SavedRecipe"
+                role="button"
+                aria-expanded="false"
+                aria-controls="SavedRecipe"
+              >
+                Saved Recipe
+              </a>
+              <a
+                class="btn"
+                data-bs-toggle="collapse"
+                href="#LikedRecipe"
+                role="button"
+                aria-expanded="false"
+                aria-controls="LikedRecipe"
+              >
+                Liked Recipe
+              </a>
+            </p>
+            <div class="collapse" id="MyRecipe">
+              <div class="card card-body d-flex flex-row">
+                <a href="detailrecipe.html" class="tes position-relative">
+                  <h2
+                    class="textimg"
+                    style="position: absolute; bottom: 0; margin-bottom: 1.3em"
+                  >
+                    Pancake
+                  </h2>
+                  <img src="./assets/Rectangle 328.png" alt="" />
+                </a>
+                <a href="#" class="tes position-relative">
+                  <h2
+                    class="textimg"
+                    style="position: absolute; bottom: 0; margin-bottom: 1.3em"
+                  >
+                    Burger
+                  </h2>
+                  <img src="./assets/newRecipe314.png" alt="" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div
+        class="container-fluid text-center d-flex justify-content-end align-items-center flex-column mt-5 p-5"
+      >
+        <div class="row">
+          <div class="foter col-lg">
+            <span class="foot p-5">
+              <a href="#" class="footp my-3 mx-3">Product</a>
+              <a href="#" class="footp my-3 mx-3">Company</a>
+              <a href="#" class="footp my-3 mx-3">Learn More</a>
+              <a href="#" class="footp my-3 mx-3">Get in Touch</a>
+            </span>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

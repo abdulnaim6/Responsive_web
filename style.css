@@ -1,0 +1,118 @@
+html > * {
+  padding: 0;
+  margin: 0;
+}
+
+.login-left {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  position: relative;
+}
+
+.login-right {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  position: relative;
+}
+
+.colorb {
+  width: 100%;
+  height: 100vh;
+  background-color: #efc81a;
+  background-size: cover;
+  position: absolute;
+  opacity: 50%;
+  z-index: 1;
+}
+
+.bg {
+  width: 100%;
+  height: 100vh;
+}
+
+.icon {
+  position: absolute;
+  z-index: 10;
+}
+
+.welcome {
+  font-family: Inter;
+  font-size: 30px;
+  line-height: normal;
+}
+
+.title {
+  color: #8692a6;
+  font-family: Inter;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.form-label {
+  color: #696f79;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.form-control {
+  width: 26.625em;
+  height: 4em;
+  border-radius: 6px;
+  border: 1px solid #efc81a;
+  background: #fff;
+  box-shadow: 0px 4px 10px 3px rgba(0, 0, 0, 0.11);
+  color: #494949;
+  font-family: Inter;
+  font-size: 14px;
+  line-height: normal;
+}
+
+.label-from {
+  color: #696f79;
+  font-family: Inter;
+  font-size: 16px;
+  line-height: normal;
+}
+
+.submit {
+  color: #fff;
+  font-family: Inter;
+  font-size: 16px;
+  line-height: normal;
+}
+
+.forgotp {
+  color: #999;
+  font-family: Airbnb Cereal App;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.noacc {
+  color: #999;
+  font-family: Airbnb Cereal App;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.signup {
+  color: #efc81a;
+  font-family: Airbnb Cereal App;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 570px) {
+}

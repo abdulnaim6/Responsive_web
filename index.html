@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login page</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/airbnbcereal@1.1.0/stylesheet.min.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <section class="container-fluid">
+      <div class="login-base row align-items-center position-relative">
+        <div class="login-left d-none d-lg-grid col-lg-6">
+          <div
+            class="bapaleft d-lg-flex d-none align-items-center justify-content-center"
+          >
+            <div class="colorb"></div>
+            <img src="./assets/image 15.png" alt="" class="bg" />
+            <div class="icon"><img src="./assets/mamarecipe.svg" alt="" /></div>
+          </div>
+        </div>
+        <div class="login-right col-12 col-lg-6">
+          <div
+            class="loginr d-flex flex-column justify-content-center align-items-center"
+            style="height: 100%; width: 100%"
+          >
+            <div class="rlg">
+              <div class="welcome d-flex flex-column align-items-center">
+                <div class="welcome text-warning">Welcome</div>
+                <div class="title mt-3 mb-3">
+                  Log in into your exiting account
+                </div>
+              </div>
+              <div class="inpute">
+                <div class="email">
+                  <label for="email" class="form-label">E-mail</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    name="email"
+                    placeholder="email"
+                  />
+                </div>
+                <div class="password mt-3">
+                  <label for="password" class="form-label">password</label>
+                  <input
+                    type="password"
+                    class="form-control"
+                    name="password"
+                    placeholder="password"
+                  />
+                </div>
+              </div>
+              <div class="formcheck mb-3 mt-3">
+                <input type="checkbox" class="form-check-input bg-warning" />
+                <label for="terms" class="label-form"
+                  >I agree to terms & conditions</label
+                >
+              </div>
+              <div class="d-grid">
+                <button type="submit" class="btn btn-warning">
+                  <a href="./homepage.html">Log in</a>
+                </button>
+              </div>
+
+              <div class="forgot text-end mb-3">
+                <a href="#" class="forgotp text-decoration-none"
+                  >Forgot password</a
+                >
+              </div>
+              <div class="noacc text-center">
+                Dont have a account?
+                <a href="/register.html" class="signup">sign up</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- script -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
