@@ -1,5 +1,5 @@
 <div align="center">
- <img height="150" width="250" src="public\barbecue 1 (1).png"  />
+ <img height="150" width="250" src="public\barbecue.png"  />
 </div>
 
 # Mama recipe Responsive Web
