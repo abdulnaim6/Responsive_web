@@ -1,5 +1,5 @@
 <div align="center">
- <img height="150" width="250" src="public\barbecue.png"  />
+ <img height="150" width="250" src="/assets/barbecue.png"  />
 </div>
 
 # Mama recipe Responsive Web
@@ -29,4 +29,3 @@ Go to the project directory
 <br />
 
 ## Related Project
-
