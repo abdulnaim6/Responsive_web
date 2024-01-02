@@ -4,9 +4,15 @@
 
 # Mama recipe Responsive Web
 
-Mamarecipe was created for food lovers or people who are just learning to cook and are also looking for new recipes, where on Mama Recipe's website there are various kinds of food recipes as well as videos from that food.
+Mamarecipe was created for food lovers or people who are just learning to cook and are also looking for new recipes, where on the Mama Recipe website there are various kinds of food recipes and videos of these foods. where on this website I only set up a Responsive Website.
 
 <br />
+
+## Built With
+
+- HTML
+- CSS
+- Bootstrap
 
 ## Installation
 
@@ -21,6 +27,16 @@ Go to the project directory
 ```bash
   cd Responsive_web
 ```
+
+## Page 
+
+- Login
+- Register
+- Landing Page
+- Detail Recipe
+- Detail Video Recipe
+- Add Recipe
+- Profile
 
 ## Authors
 
