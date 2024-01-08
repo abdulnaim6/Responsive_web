@@ -45,4 +45,8 @@ Go to the project directory
 <br />
 
 ## Related Project
-⚡[Backend Recipe](https://github.com/abdulnaim6/Be_recipe)⚡
+⚡[`Responsive Web`](https://github.com/abdulnaim6/Responsive_web)⚡
+
+⚡[`Backend Recipe`](https://github.com/abdulnaim6/Be_recipe)⚡
+
+⚡[`Frontend Recipe`](https://github.com/abdulnaim6/Fe_recipe)⚡
